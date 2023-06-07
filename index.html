@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Raul Sanz - Portafolio</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#hero">Inicio</a></li>
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </div>
+    <nav id="navbar">
+        <h1 class="logo">Raul Sanz</h1>
+        <ul>
+            <li><a href="#showcase">Inicio</a></li>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
     </nav>
-    <section id="hero" class="hero">
+    <section id="showcase">
         <div class="container">
             <h1>Bienvenido a mi portafolio</h1>
             <p>Soy un innovador apasionado listo para hacer una diferencia. Echa un vistazo a mis proyectos.</p>
@@ -24,19 +25,26 @@
     <section id="about">
         <div class="container">
             <h2>Sobre mí</h2>
+            <img src="img/about.jpg" alt="About Me"> <!-- Asegúrate de tener una imagen llamada 'about.jpg' en la carpeta 'img' -->
             <p>Aquí puedes hablar sobre ti, tu formación, tus habilidades y tus pasiones.</p>
         </div>
     </section>
     <section id="projects">
         <div class="container">
             <h2>Mis proyectos</h2>
-            <ul>
-                <li><a href="projects/project1.html">Proyecto 1</a></li>
-                <li><a href="projects/project2.html">Proyecto 2</a></li>
-            </ul>
+            <div class="project-card">
+                <img src="img/project1.jpg" alt="Project 1"> <!-- Asegúrate de tener una imagen llamada 'project1.jpg' en la carpeta 'img' -->
+                <h2>Proyecto 1</h2>
+                <p>Descripción del Proyecto 1.</p>
+            </div>
+            <div class="project-card">
+                <img src="img/project2.jpg" alt="Project 2"> <!-- Asegúrate de tener una imagen llamada 'project2.jpg' en la carpeta 'img' -->
+                <h2>Proyecto 2</h2>
+                <p>Descripción del Proyecto 2.</p>
+            </div>
         </div>
     </section>
-    <section id="contact" class="contact">
+    <section id="contact">
         <div class="container">
             <h2>Contacto</h2>
             <p>Puedes contactarme a través de mi correo electrónico: ejemplo@ejemplo.com</p>
